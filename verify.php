@@ -13,7 +13,8 @@
         unlink($output_filename);
         return preg_split('/\|/', $raw_utf8);
     }
- 
+    $output = swath("สวัสดีครับ");
+    print implode(" ",$output);
     if($_REQUEST['input_text']) {
         $output = swath($_REQUEST['input_text']);
         print implode(" ", $output);
