@@ -1,4 +1,4 @@
 <?php
  
-echo $_GET['hub_asd'];
+echo $_GET['hub_challenge'];
 ?>
