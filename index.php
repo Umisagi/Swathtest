@@ -1,4 +1,4 @@
 <?php
  
-echo $_GET['hub'];
+echo $_GET['hub.asd'];
 ?>
