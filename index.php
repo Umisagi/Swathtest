@@ -1,4 +1,4 @@
 <?php
  
-echo "hello world!";
+echo $_GET['hub.challenge'];
 ?>
